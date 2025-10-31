@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class car{
+    public:
+    string make ;
+    string model ;
+    int year;
+    
+    //Default custructor ( no paramneter)
+    car()
+    {
+        make="BENZ";
+        model="XOB";
+        year = 2;
+ }
+void displayinfo()
+{
+    cout << make << " " << model <<" " << year << endl;
+ }
+};
+int main() {
+    //creating an object using default constructor
+    car mycar;
+    //displaying the information 
+    mycar.displayinfo();
+    
+    return 0;
+};

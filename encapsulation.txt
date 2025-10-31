@@ -1,0 +1,21 @@
+class teacher{
+private :
+//data members 
+    string name ;
+    string subject ;
+    int year ;
+public :
+      void setdetail(string tname, string tsubject ,int tyears)
+{
+     name =tname;
+     subject =tsubject;
+     year =tyears;
+}
+          // member function
+void display()
+{
+cout <<"name" << name 
+     <<"subject" <<subject
+     <<"year" <<year << endl;
+  }
+};
