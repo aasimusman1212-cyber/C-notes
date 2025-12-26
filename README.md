@@ -1,1 +1,1 @@
-# C-notes
+cpp-notes/sytax codes 
